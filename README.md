@@ -20,6 +20,10 @@ This project brings together **speech recognition**, a basic **chatbot logic**, 
 
 - ⚙️ **Custom Prompts**: All responses and prompt logic are editable via `empress.txt`.
 
+# Note:
+The speech recognition features using `pyaudio` or `SpeechRecognition` require system-level audio dependencies that are not supported in Streamlit Cloud.  
+For deployment, only the text chatbot runs; speech features work locally on your machine.
+
 ## ✍️ Custom Response Style via `empress.txt`
 
 Right now, this chatbot doesn’t use any pre-trained AI like GPT or fancy machine learning.  
